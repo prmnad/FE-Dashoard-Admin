@@ -1,0 +1,104 @@
+/* smooth click */
+html {
+    scroll-behavior: smooth;
+}
+
+/* body color */
+body {
+    background-color: #001f3f;
+}
+
+/* navbar color */
+.navbar {
+    background-color: #1f77b4;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    font-family: MontserratExtraLight;
+}
+
+.navbar .icon {
+    cursor: pointer;
+}
+
+/* side bar */
+.nav-link {
+    font-family: MontserratLight;
+}
+
+/* container */
+.display-4 {
+    font-weight: bold;
+}
+
+.card-body-icon {
+    position: absolute;
+    z-index: 0;
+    top: 25px;
+    right: 4px;
+    opacity: 0.4;
+    font-size: 90px;
+}
+
+.col-10 h3 {
+    font-family: MontserratSemiBold;
+    color: #ffffff;
+}
+
+/* card */ 
+.card h5 {
+    font-family: MontserratMedium;
+}
+.card p {
+    font-family: MontserratLight;
+}
+
+/* style table */
+tbody {
+    font-family: MontserratLight;
+}
+
+td i {
+    cursor: pointer;
+}
+
+/* about */
+.col-3 ul {
+    list-style: none;
+    font-family: MontserratSemiBold;
+}
+
+.col-8 ul{
+    list-style: none;
+    font-family: MontserratLight;
+}
+
+.col-8 a {
+    color: white;
+}
+
+/* modal style */
+.modal .heading {
+    font-family: MontserratSemiBold;
+}
+
+/* import font */
+@font-face {
+    font-family: MontserratExtraLight;
+    src: url('../fonts/Montserrat-ExtraLight.otf');
+}
+
+@font-face {
+    font-family: MontserratSemiBold;
+    src: url('../fonts/Montserrat-SemiBold.otf');
+}
+
+@font-face {
+    font-family: MontserratLight;
+    src: url('../fonts/Montserrat-Light.otf');
+}
+@font-face {
+    font-family: MontserratMedium;
+    src: url('../fonts/Montserrat-Medium.otf');
+}

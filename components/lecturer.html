@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- my link css -->
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="../fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../css/hover.css">
+    <!-- font awesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- link animation scrool -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <title>Dashboard Admin</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#">Welcome Admin | <b>FAKULTAS TEKNOLOGI</b></a>
+        <form class="form-inline my-2 my-lg-0 ml-auto">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <div class="icon ml-4">
+            <h5>
+                <i class="fa fa-envelope mr-3 text-white hvr-bob" data-toggle="tooltip" title="Inbox"></i>
+                <i class="fa fa-bell mr-3 text-white hvr-bob" data-toggle="tooltip" title="Notifications"></i>
+                <i class="fa fa-sign-out mr-3 text-white hvr-bob" data-toggle="tooltip" title="Sign Out"></i>
+            </h5>
+        </div>
+        </div>
+    </nav>
+    <!-- sidebar-->
+    <div class="row no-gutters mt-5">
+        <div class="col-md-2 bg-dark mt-2 pr-3 pt-4">
+            <ul class="nav flex-column ml-3 mb-5">
+                <li class="nav-item">
+                    <a class="nav-link active text-white hvr-bounce-to-right" href="../index.html"><i
+                            class="fa fa-tachometer mr-2"></i>Dashboard</a>
+                    <hr class="bg-secondary">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white hvr-bounce-to-right" href="../components/collegeStudents.html"><i
+                            class="fa fa-graduation-cap mr-2"></i>Students</a>
+                    <hr class="bg-secondary">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white hvr-bounce-to-right" href="../components/lecturer.html"><i
+                            class="fas fa-chalkboard-teacher mr-2"></i>Lecturers</a>
+                    <hr class="bg-secondary">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white hvr-bounce-to-right" href="../components/employees.html"><i
+                            class="fas fa-user-edit mr-2"></i>Employees</a>
+                    <hr class="bg-secondary">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white hvr-bounce-to-right" href="../components/schedules.html"><i
+                            class="fas fa-calendar-alt mr-2"></i>Schedules</a>
+                    <hr class="bg-secondary">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white hvr-bounce-to-right" href="../components/scores.html"><i
+                            class="fa fa-paper-plane mr-2"></i>Student Values</a>
+                    <hr class="bg-secondary">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white hvr-bounce-to-right" href="../components/about.html"><i
+                            class="fas fa-info-circle mr-2"></i>About</a>
+                    <hr class="bg-secondary">
+                </li>
+            </ul>
+        </div>
+        <!-- container -->
+        <div class="col-10 p-5 pt-2">
+            <h3 class="animated fadeInUp delay-800ms"><i
+                    class="fas fa-chalkboard-teacher mr-2 animated fadeInUp delay-800ms"></i></i>
+                LIST LECTURERS</h3>
+            <hr color="white" class="animated fadeInUp delay-800ms">
+            <a href="" class="btn btn-primary mb-3 animated fadeInUp delay-800ms"><i
+                    class="fas fa-plus-square mr-2"></i>ADD LECTURERS</a>
+            <!-- table -->
+            <table class="table table-striped table-bordered text-white animated fadeInUp delay-800ms">
+                <thead class="animated fadeInUp delay-800ms">
+                    <tr class="text-center">
+                        <th scope="col">NO</th>
+                        <th scope="col">NAME</th>
+                        <th scope="col">NIDN</th>
+                        <th scope="col">DATE OF BIRTH</th>
+                        <th scope="col">EXPERTIES</th>
+                        <th colspan="3" scope="col">ACTION</th>
+                    </tr>
+                </thead>
+                <tbody class="animated fadeInUp delay-800ms">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Sutardi,S.Kom,.M.Kom</td>
+                        <td>18765674</td>
+                        <td>Bekasi, 27 June 1980</td>
+                        <td>Web Programming</td>
+                        <td><a href="" class="btn btn-primary">Detail</a></td>
+                        <td><i class="fas fa-edit bg-success p-2 text-white rounded" data-toggle="tooltip"
+                                title="Edit"></i></td>
+                        <td><i class="fas fa-trash-alt bg-danger p-2 text-white rounded" data-toggle="tooltip"
+                                title="Delete"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Febby Oktaviani,S.Mat</td>
+                        <td>18719674</td>
+                        <td>Bogor, 19 August 1991</td>
+                        <td>Mathematics</td>
+                        <td><a href="" class="btn btn-primary">Detail</a></td>
+                        <td><i class="fas fa-edit bg-success p-2 text-white rounded" data-toggle="tooltip"
+                                title="Edit"></i></td>
+                        <td><i class="fas fa-trash-alt bg-danger p-2 text-white rounded" data-toggle="tooltip"
+                                title="Delete"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Derma Dani,S.Kom,.M.Kom</td>
+                        <td>18765111</td>
+                        <td>Jakarta, 25 December 1972</td>
+                        <td>Database Management System</td>
+                        <td><a href="" class="btn btn-primary">Detail</a></td>
+                        <td><i class="fas fa-edit bg-success p-2 text-white rounded" data-toggle="tooltip"
+                                title="Edit"></i></td>
+                        <td><i class="fas fa-trash-alt bg-danger p-2 text-white rounded" data-toggle="tooltip"
+                                title="Delete"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Arriyan,S.Kom,.M.Kom</td>
+                        <td>28565674</td>
+                        <td>Bogor, 01 June 1975</td>
+                        <td>Wireless & Mobile Computing</td>
+                        <td><a href="" class="btn btn-primary">Detail</a></td>
+                        <td><i class="fas fa-edit bg-success p-2 text-white rounded" data-toggle="tooltip"
+                                title="Edit"></i></td>
+                        <td><i class="fas fa-trash-alt bg-danger p-2 text-white rounded" data-toggle="tooltip"
+                                title="Delete"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Cahyo Purnomo,S.Kom,.M.Kom</td>
+                        <td>18213674</td>
+                        <td>Kediri, 10 March 1986</td>
+                        <td>Advanced Networking</td>
+                        <td><a href="" class="btn btn-primary">Detail</a></td>
+                        <td><i class="fas fa-edit bg-success p-2 text-white rounded" data-toggle="tooltip"
+                                title="Edit"></i></td>
+                        <td><i class="fas fa-trash-alt bg-danger p-2 text-white rounded" data-toggle="tooltip"
+                                title="Delete"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <!-- my link js -->
+    <script src="../js/admin.js"></script>
+</body>
+
+</html>
